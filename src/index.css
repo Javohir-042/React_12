@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1332px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  color: #454545;
+}
+
+.head ul {
+  display: flex;
+  gap: 27px;
+  padding: 10px 0;
+  list-style: none;
+}
+
+.head_text {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+
+
+.head_norlignt {
+  width: 207px;
+  height: 35px;
+}
+
+.head_norlignt img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.head_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head_desc {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.head_buttom {
+  width: 153px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: black;
+}
+
+.head_input input {
+  border-radius: 100px;
+  width: 626px;
+  height: 50px;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #454545;
+}
+
+.head_input img {
+  transform: translate(3600%, -250%);
+  stroke-width: 2px;
+  stroke: #454545;
+}
+
+.head_img_3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.head_svg {
+  width: 66px;
+  height: 40px;
+}
+
+.head_svg1 {
+  padding-bottom: 5px;
+}
+
+span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #454545;
+}
+
+.company {
+  padding-top: 116px;
+  display: flex;
+  justify-content: space-between;
+  gap: 102px;
+}
+
+.company h1 {
+  padding-top: 15px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 110%;
+  color: #454545;
+  padding-bottom: 36px;
+}
+
+.company_color {
+  background: #f2f2f2;
+  border-radius: 15px;
+  width: 530px;
+  height: 253px;
+  margin-bottom: 20px;
+}
+
+.company_color h1 {
+  padding-left: 32px;
+  padding-top: 32px;
+  padding-bottom: 83px;
+}
+
+.company_color p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #454545;
+  padding-left: 32px;
+}
+
+.company_desc {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #454545;
+}
+
+.company_desc p{
+  padding-top: 50px;
+}
+
+
