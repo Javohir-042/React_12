@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -26,8 +27,6 @@
   padding-bottom: 20px;
 }
 
-
-
 .head_norlignt {
   width: 207px;
   height: 35px;
@@ -50,7 +49,8 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .head_buttom {
@@ -70,7 +70,7 @@
 }
 
 .head_input img {
-  transform: translate(3600%, -250%);
+  transform: translate(-200%);
   stroke-width: 2px;
   stroke: #454545;
 }
@@ -146,8 +146,232 @@ span {
   color: #454545;
 }
 
-.company_desc p{
+.company_desc p {
   padding-top: 50px;
 }
 
+.company_title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
 
+.company_png {
+  width:100%;
+  margin-top: 72px;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.company_png img {
+  width: 100%;
+  flex: 2;
+  height: 112px;
+}
+
+.company_blog {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company_bottom {
+  border: 1px solid #454545;
+  border-radius: 100px;
+  width: 220px;
+  height: 50px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.company_subtitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.company_cardblog {
+  display: flex;
+  margin-top: 53px;
+  gap: 20px;
+  padding-bottom: 127px;
+}
+
+.company_card {
+  padding-bottom: 32px;
+}
+
+.company_subtitle p {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #454545;
+  width: 310px;
+}
+
+.footer_blog {
+  background-color: #f2f2f2;
+  display: flex;
+}
+
+.footer_number {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  color: #454545;
+  margin-bottom: 35px;
+}
+
+.footer_text {
+  font-weight: 600;
+  font-size: 16px;
+  color: #908c8c;
+  margin-bottom: 35px;
+  margin-top: 30px;
+}
+
+.footer_vk {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 79px;
+}
+
+.footer_vk p {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: #454545;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 10px;
+  padding-right: 8px;
+}
+
+.footer_img_1 {
+  margin-bottom: 50px;
+}
+
+.footer_text_2 {
+  display: flex;
+  margin-top: 80px;
+  gap: 146px;
+}
+
+.footer_h1 h1 {
+  margin-bottom: 32px;
+}
+
+.footer_text_3 p {
+  margin-top: 27px;
+  color: #908c8c;
+  font-size: 16px;
+}
+
+.footer_text_33{
+  margin-top: 70px;
+
+}
+.head_input2 {
+  display: none !important;
+}
+
+.footer_text_33 p{
+  margin-top: 27px;
+  color: #908c8c;
+  font-size: 16px;
+}
+
+.company_png {
+  overflow-x: auto;
+  display: flex !important;
+  justify-content: space-between;
+}
+.head_img {
+  width: 100%;
+  display: flex;
+}
+
+@media (max-width: 1330px) {
+  .head_input {
+    display: none;
+  }
+  .head_input2 {
+    display: block !important;
+  }
+  .head_img {
+    flex-direction: column;
+}
+.head_buttom {
+  display: none;
+}
+.head_desc {
+  display: flex !important;
+}
+.company_cardblog {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer_text_2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.company {
+  flex-direction: column;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+}
+@media (max-width: 854px){
+  .head_text {
+    display: none;
+  }
+  .company_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .head_input2 input {
+    width: 100% !important;
+  }
+  .head_input2 img {
+    display: none;
+  }
+}
+@media (max-width: 560px) {
+  .company_color, .company_card {
+    width: 100%;
+  }
+  .company_card img {
+    width: 100%;
+  }
+  .company_subtitle img{
+    width: 20px;
+  }
+  .img_shox {
+    width: 10vw;
+  }
+  .head_norlignt .logo_img{
+    width: 40vw !important;
+  }
+  .head_desc {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .head_svg {
+    width: 100%;
+  }
+  .head_svg img{
+    width: 40px;
+  }
+  .head_img_3 {
+    display: flex; align-items: center;justify-content: center;
+  }
+  .head_norlignt {
+    width: 100%;
+  }
+}
